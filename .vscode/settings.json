@@ -1,5 +1,17 @@
 {
-    "editor.fontSize": 20,
+    "explorer.compactFolders": false,
     "vim.easymotion": true,
-    "vim.leader": "<Space>"
+    "editor.lineNumbers": "relative",
+    "vim.leader": "<Space>", 
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before" : ["<tab>"], 
+            "commands": ["workbench.action.nextEditor"]
+        },
+        {
+            "before": ["<S-tab>"], 
+            "commands": ["workbench.action.previousEditor"]
+        }
+
+    ]
 }
