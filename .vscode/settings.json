@@ -1,29 +1,63 @@
-{ 
+{
     "explorer.compactFolders": false,
     "vim.easymotion": true,
     "editor.lineNumbers": "relative",
     "vim.leader": "<Space>", 
     "vim.normalModeKeyBindingsNonRecursive": [
+        // Go to previous tab
         {
-            "before" : ["<tab>"], 
-            "commands": ["workbench.action.nextEditor"]
+            "before" : ["<S-h>"], 
+            "commands": [":bprevious"]
+        },
+
+        // go to next tab
+        {
+            "before": ["<S-l>"], 
+            "commands": [":bnext"]
+        }, 
+
+        // move between panes
+        {
+            "before": ["leader", "h"], 
+            "commands": ["workbench.action.focusLeftGroup"]
         },
         {
-            "before": ["<S-tab>"], 
-            "commands": ["workbench.action.previousEditor"]
+            "before": ["leader", "j"], 
+            "commands": ["workbench.action.focusBelowGroup"]
         }, 
+        {
+            "before": ["leader", "k"], 
+            "commands": ["workbench.action.focusAboveGroup"]
+        },
+        {
+            "before": ["leader", "l"], 
+            "commands": ["workbench.action.focusRightGroup"]
+        },
+
+        // split windows 
         {
             "before": ["<leader>", "w"], 
             "commands": ["workbench.action.splitEditor"]
         }, 
+
+        // find file in explorer
         {
             "before": ["<leader>", "f"], 
             "commands": ["revealInExplorer"]
         }, 
+
+        // toggle bar 
         {
             "before": ["<leader>", "e"], 
             "commands": ["workbench.action.toggleSidebarVisibility"]
+        }, 
+
+        // Terminal
+        {
+            "key": "shift+n",
+            "command": "workbench.action.terminal.new"
         }
+
     ], 
     "vim.insertModeKeyBindings": [
         {
@@ -36,5 +70,8 @@
         "<C-c>": false, 
         "<C-v>": false, 
         "<C-f>": false
-    }
+    },
+    "workbench.statusBar.visible": false,
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false
 }
