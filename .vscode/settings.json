@@ -1,4 +1,4 @@
-{
+{ 
     "explorer.compactFolders": false,
     "vim.easymotion": true,
     "editor.lineNumbers": "relative",
