@@ -11,7 +11,30 @@
         {
             "before": ["<S-tab>"], 
             "commands": ["workbench.action.previousEditor"]
+        }, 
+        {
+            "before": ["<leader>", "w"], 
+            "commands": ["workbench.action.splitEditor"]
+        }, 
+        {
+            "before": ["<leader>", "f"], 
+            "commands": ["revealInExplorer"]
+        }, 
+        {
+            "before": ["<leader>", "e"], 
+            "commands": ["workbench.action.toggleSidebarVisibility"]
         }
-
-    ]
+    ], 
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "k"], 
+            "after": ["<Esc>"]
+        }
+    ], 
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-c>": false, 
+        "<C-v>": false, 
+        "<C-f>": false
+    }
 }
