@@ -1,8 +1,19 @@
 {
+    // we don't want to show several folders in just
+    // one line
     "explorer.compactFolders": false,
+
+    // Activate easy motion to be able to search faster
+    // to search use <leader><leader>/
     "vim.easymotion": true,
+
+    // set the relative number of lines by default
     "editor.lineNumbers": "relative",
+
+    // Use space instead of '\' for the leader key
     "vim.leader": "<Space>", 
+
+    // Custom commands for when we are in normal mode
     "vim.normalModeKeyBindingsNonRecursive": [
         // Go to previous tab
         {
@@ -52,25 +63,24 @@
             "commands": ["workbench.action.toggleSidebarVisibility"]
         }, 
 
-        // Terminal
-        {
-            "key": "shift+n",
-            "command": "workbench.action.terminal.new"
-        }
-
     ], 
+
     "vim.insertModeKeyBindings": [
+        // going from insert mode to normal mode
         {
             "before": ["j", "k"], 
             "after": ["<Esc>"]
         }
     ], 
+
+    // key combinations that we don't want vim to
+    // handle it
     "vim.handleKeys": {
         "<C-a>": false,
-        "<C-c>": false, 
-        "<C-v>": false, 
         "<C-f>": false
     },
+
+    // Parts of vscode we don't need to see by default
     "workbench.statusBar.visible": false,
     "editor.minimap.enabled": false,
     "breadcrumbs.enabled": false
