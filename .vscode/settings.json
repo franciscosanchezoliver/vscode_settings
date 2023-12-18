@@ -70,6 +70,9 @@
         // Comment line
         {"before": ["leader", "c"], "commands":["editor.action.commentLine"]},
 
+        // Close current editor
+        {"before": ["leader", "q"], "commands":["workbench.action.closeActiveEditor"]}
+
     ], 
 
     "vim.insertModeKeyBindings": [
