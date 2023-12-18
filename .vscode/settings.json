@@ -63,6 +63,13 @@
             "commands": ["workbench.action.toggleSidebarVisibility"]
         }, 
 
+        // Indenting
+        {"before":["<"], "commands":["editor.action.outdentLines"]},
+        {"before":[">"], "commands":["editor.action.indentLines"]},
+
+        // Comment line
+        {"before": ["leader", "c"], "commands":["editor.action.commentLine"]},
+
     ], 
 
     "vim.insertModeKeyBindings": [
@@ -76,12 +83,27 @@
     // key combinations that we don't want vim to
     // handle it
     "vim.handleKeys": {
+        // Select all text
         "<C-a>": false,
-        "<C-f>": false
+
+        // Find 
+        "<C-f>": false, 
+
+        // Copy and paste fuctionality
+        "<C-c>": false, 
+        "<C-v>": false,
     },
 
     // Parts of vscode we don't need to see by default
     "workbench.statusBar.visible": false,
     "editor.minimap.enabled": false,
-    "breadcrumbs.enabled": false
+    "breadcrumbs.enabled": false,
+    "vim.visualModeKeyBindings": [
+        // Indenting
+        {"before":["<"], "commands":["editor.action.outdentLines"]},
+        {"before":[">"], "commands":["editor.action.indentLines"]},
+
+        //Comment lines
+        {"before": ["leader", "c"], "commands":["editor.action.commentLine"]},
+    ],
 }
