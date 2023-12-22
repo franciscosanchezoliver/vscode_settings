@@ -71,8 +71,16 @@
         {"before": ["leader", "c"], "commands":["editor.action.commentLine"]},
 
         // Close current editor
-        {"before": ["leader", "q"], "commands":["workbench.action.closeActiveEditor"]}
+        {"before": ["leader", "q"], "commands":["workbench.action.closeActiveEditor"]},
 
+        // Move editor to group
+        {"before": ["leader", "m", "k"], "commands":["workbench.action.moveEditorToAboveGroup"]},
+        {"before": ["leader", "m", "j"], "commands":["workbench.action.moveEditorToBelowGroup"]},
+        {"before": ["leader", "m", "h"], "commands":["workbench.action.moveEditorToPreviousGroup"]},
+        {"before": ["leader", "m", "l"], "commands":["workbench.action.moveEditorToNextGroup"]},
+
+
+        
     ], 
 
     "vim.insertModeKeyBindings": [
@@ -91,10 +99,6 @@
 
         // Find 
         "<C-f>": false, 
-
-        // Copy and paste fuctionality
-        "<C-c>": false, 
-        "<C-v>": false,
     },
 
     // Parts of vscode we don't need to see by default
