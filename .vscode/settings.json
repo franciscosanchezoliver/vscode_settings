@@ -79,7 +79,11 @@
         {"before": ["leader", "m", "h"], "commands":["workbench.action.moveEditorToPreviousGroup"]},
         {"before": ["leader", "m", "l"], "commands":["workbench.action.moveEditorToNextGroup"]},
 
-
+        // Go to debugging lnie
+        {
+            "before": ["leader", "d"],
+            "commands": ["workbench.action.debug.callStackTop"]
+        },
         
     ], 
 
