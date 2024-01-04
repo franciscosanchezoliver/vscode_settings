@@ -12,6 +12,7 @@
 
     // Use space instead of '\' for the leader key
     "vim.leader": "<Space>", 
+    "debug.console.wordWrap": false,
 
     // Custom commands for when we are in normal mode
     "vim.normalModeKeyBindingsNonRecursive": [
