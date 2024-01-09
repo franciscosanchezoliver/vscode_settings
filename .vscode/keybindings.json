@@ -1,0 +1,15 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+oem_period",
+        "command": "editor.debug.action.selectionToRepl"
+    },
+    {
+        "key": "ctrl+oem_plus",
+        "command": "editor.debug.action.selectionToWatch"
+    },
+    {
+        "key": "ctrl+alt+p",
+        "command": "git.push"
+    }
+]
