@@ -30,6 +30,12 @@
             "before": ["<leader>", "i"],
             "commands": ["workbench.action.debug.stepInto"]
         },
+
+        // add a breakpoint
+        {
+            "before": ["<leader>", "b"], 
+            "commands": ["editor.debug.action.toggleBreakPoint"]
+        },
         
         // resize width active tab
         {"before": ["<leader>", "u"], "commands": ["workbench.action.toggleEditorWidths"]},
