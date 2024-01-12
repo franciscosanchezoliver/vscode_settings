@@ -17,6 +17,20 @@
     // Custom commands for when we are in normal mode
     "vim.normalModeKeyBindingsNonRecursive": [
 
+        // debug
+        
+        // Step over
+        {
+            "before": ["<leader>", "n"],
+            "commands": ["workbench.action.debug.stepOver"]
+        },
+        
+        // step into
+        {
+            "before": ["<leader>", "i"],
+            "commands": ["workbench.action.debug.stepInto"]
+        },
+        
         // resize width active tab
         {"before": ["<leader>", "u"], "commands": ["workbench.action.toggleEditorWidths"]},
         
