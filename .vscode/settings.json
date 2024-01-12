@@ -56,6 +56,16 @@
             "commands": ["workbench.action.splitEditor"]
         }, 
 
+        {
+          "before": ["<leader>", "w", "j"],
+          "commands": [":split"]
+        },
+
+        {
+          "before": ["<leader>", "w", "l"],
+          "commands": [":vsplit"]
+        },
+        
         // find file in explorer
         {
             "before": ["<leader>", "f"], 
