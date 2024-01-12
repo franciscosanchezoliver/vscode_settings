@@ -16,6 +16,10 @@
 
     // Custom commands for when we are in normal mode
     "vim.normalModeKeyBindingsNonRecursive": [
+
+        // resize width active tab
+        {"before": ["<leader>", "u"], "commands": ["workbench.action.toggleEditorWidths"]},
+        
         // Go to previous tab
         {
             "before" : ["<S-h>"], 
