@@ -11,5 +11,10 @@
     {
         "key": "ctrl+alt+p",
         "command": "git.push"
+    },
+    // hide/show terminal
+    {
+        "key":"ctrl+alt+m",
+        "command":"workbench.action.togglePanel"
     }
 ]
