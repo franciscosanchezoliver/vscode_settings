@@ -34,7 +34,7 @@
         // add a breakpoint
         {
             "before": ["<leader>", "b"], 
-            "commands": ["editor.debug.action.toggleBreakPoint"]
+            "commands": ["editor.debug.action.toggleBreakpoint"]
         },
         
         // resize width active tab
