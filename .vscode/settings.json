@@ -16,6 +16,9 @@
 
     // Show variable values in the same line
     "debug.inlineValues": "on",
+    
+    // Draw lines at lines
+    "editor.rulers": [80,120]
 
     // Custom commands for when we are in normal mode
     "vim.normalModeKeyBindingsNonRecursive": [
