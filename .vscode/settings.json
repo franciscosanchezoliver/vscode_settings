@@ -18,6 +18,12 @@
     "vim.normalModeKeyBindingsNonRecursive": [
 
         // debug
+
+        // go inside method
+        {
+            "before": ["<leader>", "a"],
+            "commands": ["editor.action.revealDefinition"]            
+        },
         
         // Step over
         {
