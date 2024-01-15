@@ -18,7 +18,12 @@
     "debug.inlineValues": "on",
     
     // Draw lines at lines
-    "editor.rulers": [80,120]
+    "editor.rulers": [80,120],
+
+    // color of the line
+    "workbench.colorCustomizations": {
+        "editorRuler.foreground": "#ff0000"
+    }, 
 
     // Custom commands for when we are in normal mode
     "vim.normalModeKeyBindingsNonRecursive": [
