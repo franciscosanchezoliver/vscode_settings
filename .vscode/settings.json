@@ -14,6 +14,9 @@
     "vim.leader": "<Space>", 
     "debug.console.wordWrap": false,
 
+    // Show variable values in the same line
+    "debug.inlineValues": "on",
+
     // Custom commands for when we are in normal mode
     "vim.normalModeKeyBindingsNonRecursive": [
 
