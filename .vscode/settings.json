@@ -27,7 +27,15 @@
 
     // Custom commands for when we are in normal mode
     "vim.normalModeKeyBindingsNonRecursive": [
-
+        {
+          "before": [
+            "<leader>",
+            "r"
+          ],
+          "commands": [
+            "testing.debugAtCursor"
+          ]
+        },
         // debug
 
         // go inside method
