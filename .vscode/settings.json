@@ -27,6 +27,17 @@
 
     // Custom commands for when we are in normal mode
     "vim.normalModeKeyBindingsNonRecursive": [
+        // Search with easy motion
+        {
+          "before": [
+            "f"
+          ],
+          "after": [
+            "<leader>",
+            "<leader>",
+            "/"
+          ]
+        },
         // Go back
         {
           "before": [
