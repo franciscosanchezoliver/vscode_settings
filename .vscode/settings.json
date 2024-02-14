@@ -27,8 +27,17 @@
 
     // Custom commands for when we are in normal mode
     "vim.normalModeKeyBindingsNonRecursive": [
+        // Go back
+        {
+          "before": [
+            "<leader>",
+            "s"
+          ],
+          "commands": [
+            "workbench.action.navigateBack"
+          ]
+        },
         // debug
-
         // go inside method
         {
             "before": ["<leader>", "a"],
