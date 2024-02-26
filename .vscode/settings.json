@@ -3,6 +3,9 @@
     // one line
     "explorer.compactFolders": false,
 
+    // sticki scroll to know in what method we are in
+    "editor.experimental.stickyScroll.enabled": true,
+    
     // Activate easy motion to be able to search faster
     // to search use <leader><leader>/
     "vim.easymotion": true,
