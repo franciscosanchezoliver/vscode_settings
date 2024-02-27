@@ -27,6 +27,7 @@
     "workbench.colorCustomizations": {
         "editorRuler.foreground": "#ff0000"
     }, 
+    "debug.openDebug": "neverOpen",
 
     // Custom commands for when we are in normal mode
       "vim.normalModeKeyBindingsNonRecursive": [
