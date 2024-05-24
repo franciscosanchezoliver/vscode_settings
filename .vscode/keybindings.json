@@ -1,12 +1,12 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
+    // test at cursor
+    {"key": "ctrl+t", "command": "testing.debugAtCursor"},
+
+    // Execute code selected in debug console
     {
         "key": "ctrl+oem_period",
         "command": "editor.debug.action.selectionToRepl"
-    },
-    {
-        "key": "ctrl+oem_plus",
-        "command": "editor.debug.action.selectionToWatch"
     },
     {
         "key": "ctrl+alt+p",
