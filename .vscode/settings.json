@@ -316,6 +316,9 @@
 
     // Parts of vscode we don't need to see by default
     "workbench.statusBar.visible": false,
+    "workbench.sideBar.location": "right",
+    "window.menuBarVisibility": "compact",
+    "workbench.colorTheme": "Abyss",
     "editor.minimap.enabled": false,
     "breadcrumbs.enabled": false,
     "vim.visualModeKeyBindings": [
@@ -326,4 +329,17 @@
         //Comment lines
         {"before": ["leader", "c"], "commands":["editor.action.commentLine"]},
     ],
+      "background.fullscreen": {
+    "images": ["https://images2.alphacoders.com/613/613081.jpg"], // urls of your images
+    "opacity": 0.91, // 0.85 ~ 0.95 recommended
+    "size": "cover", // also css, `cover` to self-adaption (recommended)，or `contain`、`200px 200px`
+    "position": "center", // alias to `background-position`, default `center`
+    "interval": 0 // seconds of interval for carousel, default `0` to disabled.
+  },
+  "cSpell.userWords": [
+    "dataframe",
+    "numpy",
+    "sklearn",
+    "xgboost"
+  ]
 }
