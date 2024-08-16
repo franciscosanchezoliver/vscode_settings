@@ -293,6 +293,10 @@
       "commands": [
         "workbench.action.moveEditorToNextGroup"
       ]
+    },
+    {
+      "before": ["leader", "º"], 
+      "commands": ["workbench.action.debug.start"]
     }
   ],
 
