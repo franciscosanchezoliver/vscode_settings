@@ -319,7 +319,7 @@
     },
 
     // Parts of vscode we don't need to see by default
-    "workbench.statusBar.visible": false,
+    //"workbench.statusBar.visible": false,
     "workbench.sideBar.location": "right",
     "window.menuBarVisibility": "compact",
     "workbench.colorTheme": "Abyss",
