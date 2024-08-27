@@ -334,7 +334,26 @@
         {"before": ["leader", "c"], "commands":["editor.action.commentLine"]},
     ],
       "background.fullscreen": {
-    "images": ["https://images2.alphacoders.com/613/613081.jpg"], // urls of your images
+    "images": [
+    "https://images3.alphacoders.com/135/thumb-1920-1358139.png", // Darth Vader
+    "https://images5.alphacoders.com/593/thumb-1920-593850.jpg", // mandalorian
+    "https://images2.alphacoders.com/613/thumb-1920-613081.jpg", // Ships
+    "https://images3.alphacoders.com/817/thumb-1920-81737.jpg", // City skyline
+    "https://picfiles.alphacoders.com/646/646408.jpeg", // Synthwave Mountain
+    "https://images3.alphacoders.com/130/thumb-1920-1305241.jpg", // Mandalorian half face
+    "https://images8.alphacoders.com/136/thumb-1920-1363709.png", // Red Landscape
+    "https://images3.alphacoders.com/133/thumb-1920-1331117.png", // Blue Nebula
+    "https://images3.alphacoders.com/130/thumb-1920-1305184.jpg", // A City from Star Wars
+    "https://images4.alphacoders.com/987/thumb-1920-987919.jpg", // Landscape: Cat , Paris
+    "https://images5.alphacoders.com/456/thumb-1920-456536.jpg", // Landscape: New York
+    "https://images2.alphacoders.com/130/thumb-1920-1308322.jpeg", // Landscape: Blue
+    "https://images2.alphacoders.com/916/thumb-1920-916108.jpg", // Red planet
+    "https://images4.alphacoders.com/903/thumb-1920-903637.jpg", // Retro wave city
+    "https://images6.alphacoders.com/129/1293302.jpg", // Japanesse castle (Pixel Art)
+    "https://images8.alphacoders.com/128/thumb-1920-1281520.jpg", // Night and Raining futuristic city (Pixel Art)
+    "https://images7.alphacoders.com/125/thumb-1920-1259209.png",// Ramen Bar (Pixel Art)
+    "https://images8.alphacoders.com/135/thumb-1920-1358524.png", // Tree in the Night (Pixel Art)
+    ], // urls of your images
     "opacity": 0.91, // 0.85 ~ 0.95 recommended
     "size": "cover", // also css, `cover` to self-adaption (recommended)，or `contain`、`200px 200px`
     "position": "center", // alias to `background-position`, default `center`
