@@ -41,5 +41,38 @@ which code
 sudo ln -s ~/programs/vscode/code /usr/local/bin/code
 ``` 
 
+### Create a icon link
+```
+vim ~/.local/share/applications/code.desktop
+```
+
+Paste this content (make sure that the paths apply to your case)
+```
+[Desktop Entry]
+Name=Visual Studio Code
+Comment=Code Editing. Redefined.
+Exec=/home/myuser/programs/vscode/code
+Icon=/home/myuser/programs/vscode/resources/app/resources/linux/code.png
+Type=Application
+Terminal=false
+Categories=Utility;TextEditor;Development;IDE;
+StartupNotify=true
+```
+
+Make it executable
+```
+chmod +x ~/.local/share/applications/code.desktop
+```
+
+Refresh your application menu (For ubuntu)
+gtk-update-icon-cache
+
+Now when you search for the application (key windows and write the name
+of the app) you should see the vscode icon. You should see it also in the
+bar
+
+
+
+
 Now we should be able to start vscode just by executing "code" in the console
 
